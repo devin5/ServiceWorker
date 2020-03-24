@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  /* Border: 1px solid grey; */
+}
+
+header {
+  background-color: brown;
+  text-align: center;
+  color: whitesmoke;
+  min-width: 100%;
+  height: 150px;
+}
+
+header p {
+  font-size: 2rem;
+  padding-top: 4%;
+}
+
+header nav {
+  text-align: left;
+  padding-top: 4%;
+  padding-left: 1%;
+  color: azure;
+}
+header nav a {
+  color: azure;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: rgb(97, 243, 12);
+  transition: 0.4s;
+}
+.container {
+  margin: 3% 5%;
+}
+.container p {
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.container h1 {
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1.8;
+  }
